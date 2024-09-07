@@ -1,6 +1,134 @@
 {
-  "cart": {
-    "id": 1,
-    "checkoutUrl": "https://example.com"
-  }
+  "id": "cart12345",
+  "checkoutUrl": "https://shopify.com/checkout/cart12345",
+  "cost": {
+    "subtotalAmount": {
+      "amount": "120.00",
+      "currencyCode": "USD"
+    },
+    "totalAmount": {
+      "amount": "130.00",
+      "currencyCode": "USD"
+    },
+    "totalTaxAmount": {
+      "amount": "10.00",
+      "currencyCode": "USD"
+    }
+  },
+  "lines": {
+    "edges": [
+      {
+        "node": {
+          "id": "cartItem1",
+          "quantity": 2,
+          "cost": {
+            "totalAmount": {
+              "amount": "50.00",
+              "currencyCode": "USD"
+            }
+          },
+          "merchandise": {
+            "id": "product1",
+            "title": "T-Shirt",
+            "selectedOptions": [
+              {
+                "name": "Size",
+                "value": "M"
+              },
+              {
+                "name": "Color",
+                "value": "Black"
+              }
+            ],
+            "product": {
+              "id": "product1",
+              "handle": "t-shirt-black",
+              "title": "Black T-Shirt",
+              "featuredImage": {
+                "url": "https://shopify.com/products/tshirt-black.jpg",
+                "altText": "Black T-Shirt",
+                "width": 800,
+                "height": 800
+              }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "cartItem2",
+          "quantity": 1,
+          "cost": {
+            "totalAmount": {
+              "amount": "70.00",
+              "currencyCode": "USD"
+            }
+          },
+          "merchandise": {
+            "id": "product2",
+            "title": "Jeans",
+            "selectedOptions": [
+              {
+                "name": "Size",
+                "value": "32"
+              },
+              {
+                "name": "Color",
+                "value": "Blue"
+              }
+            ],
+            "product": {
+              "id": "product2",
+              "handle": "jeans-blue",
+              "title": "Blue Jeans",
+              "featuredImage": {
+                "url": "https://shopify.com/products/jeans-blue.jpg",
+                "altText": "Blue Jeans",
+                "width": 800,
+                "height": 800
+              }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "cartItem3",
+          "quantity": 3,
+          "cost": {
+            "totalAmount": {
+              "amount": "10.00",
+              "currencyCode": "USD"
+            }
+          },
+          "merchandise": {
+            "id": "product3",
+            "title": "Socks",
+            "selectedOptions": [
+              {
+                "name": "Size",
+                "value": "L"
+              },
+              {
+                "name": "Color",
+                "value": "White"
+              }
+            ],
+            "product": {
+              "id": "product3",
+              "handle": "socks-white",
+              "title": "White Socks",
+              "featuredImage": {
+                "url": "https://shopify.com/products/socks-white.jpg",
+                "altText": "White Socks",
+                "width": 800,
+                "height": 800
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "totalQuantity": 6
 }
